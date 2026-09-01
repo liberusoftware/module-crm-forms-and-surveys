@@ -1,1 +1,5 @@
-{"name":"liberusoftware/module-crm-forms-and-surveys","type":"liberu-module","autoload":{"psr-4":{"Liberu\\CRM\\FormsAndSurveys\\":"src/"}},"extra":{"laravel":{"providers":["Liberu\\CRM\\FormsAndSurveys\\FormsAndSurveysServiceProvider"]},"liberu":{"name":"crm-forms-and-surveys"}}}
+{"name":"liberusoftware/module-crm-forms-and-surveys","type":"liberu-module","autoload":{"psr-4":{"Liberu\\CRM\\FormsAndSurveys\\":"src/"}},"extra":{"laravel":{"providers":["Liberu\\CRM\\FormsAndSurveys\\FormsAndSurveysServiceProvider"]},"liberu":{"name":"crm-forms-and-surveys"}},
+    "require": {
+        "liberusoftware/module-organizations-teams": "^1.0"
+    }
+}
