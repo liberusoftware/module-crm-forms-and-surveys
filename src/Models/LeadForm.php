@@ -1,8 +1,10 @@
 <?php
 
-namespace App\Models;
+namespace Liberu\CRM\FormsAndSurveys\Models;
 
-use App\Traits\IsTenantModel;
+
+use Liberu\CRM\MarketingResources\Models\LandingPage;
+use Liberu\Foundation\Organizations\Traits\IsTenantModel;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

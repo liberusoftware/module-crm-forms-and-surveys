@@ -1,14 +1,16 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Liberu\CRM\FormsAndSurveys\Http\Controllers;
 
-use App\Jobs\ExecuteWorkflowAction;
-use App\Models\Campaign;
-use App\Models\Contact;
-use App\Models\Lead;
-use App\Models\LeadForm;
-use App\Models\Workflow;
-use App\Services\LeadScoringService;
+
+use Illuminate\Routing\Controller;
+use Liberu\CRM\AutomationPack\Jobs\ExecuteWorkflowAction;
+use Liberu\CRM\Advertising\Models\Campaign;
+use Liberu\CRM\Core\Models\CrmContact as Contact;
+use Liberu\CRM\LeadCapture\Models\Lead;
+use Liberu\CRM\FormsAndSurveys\Models\LeadForm;
+use Liberu\CRM\AutomationPack\Models\Workflow;
+use Liberu\CRM\Core\Services\LeadScoringService;
 use Illuminate\Http\Request;
 
 class LeadFormController extends Controller
